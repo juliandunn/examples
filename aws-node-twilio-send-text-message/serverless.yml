@@ -1,8 +1,8 @@
-service: aws-node-twilio
+service: aws-node-twilio-<card>-<suit>
 
 provider:
   name: aws
-  runtime: nodejs4.3
+  runtime: nodejs6.10
   environment:
     # replace these env variables with your twilio account values
     TWILIO_ACCOUNT_SID: YOUR-TWILIO-ACCOUNT-SID-HERE
